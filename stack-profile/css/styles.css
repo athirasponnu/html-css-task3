@@ -391,16 +391,21 @@ header{
 .about
 {
     flex:70%;
-    padding:0px 15px 15px 15px;
-    border:1px solid black;
+    padding:0px 15px 15px 20px;
 }
 .twitter-link
 {
     margin-top:15px;
+  
+}
+.twitter-link a
+{
+    color:#418ee0;
 }
 .twitter-link span
 {
   font-size:15px;
+ 
 }
 .about ul{
     list-style-type: disc;    
@@ -495,15 +500,15 @@ header{
     padding-right:3px;
    
 }
-#silver,#award-silver
+.silver,#award-silver
 {
     color:gray;
 }
-#gold,#award-gold
+.gold,#award-gold
 {
    color:#f5d25f;
 }
-#bronze,#award-bronze
+.bronze,#award-bronze
 {
    color:#a15c5c;
 }
@@ -516,9 +521,9 @@ header{
 }
 .row2 button
 {
-     font-size:10px;
+     font-size:11px;
      color:gray;
-     padding:5px 3px;
+     padding:5px 5px;
      background-color:#e6ebea;
      border:1px solid #d9dbdb;
      border-radius:3px;
@@ -528,7 +533,7 @@ header{
 {
     background-color:#c5c9c9;
 }
- row2 .silver
+ .row2 .silver
 {
   color:gray;
 }
@@ -552,7 +557,7 @@ header{
 }
 .layer
 {
-    padding:10px;
+    padding:13px;
     border-bottom:1px solid  #d9dbdb; 
 }
 .layer i
@@ -640,7 +645,7 @@ table,td
     border-radius:5px;
     border-bottom:none;
 }
-#message
+.top-layer  i
 {
     color:#69b579;
     font-size:13px;
@@ -697,14 +702,74 @@ table,td
 }
 .number
 {
-    padding:4px 6px;
+    padding:4px 16px;
     border:1px solid gray;
     font-size:14px;
     margin-left:10px;
 }
+.two-digit
+{
+    padding:4px 13px;  
+}
+
 .top-meta-details
 {
       color:#418ee0;
       font-size:15px;
       margin-left:10px;
-}    
+}
+.side-title
+{
+    float:right;
+    font-size:13px;
+    color:gray;
+} 
+.top-network-posts
+{
+    margin-top:30px;
+}   
+footer{
+    padding:15px;
+    width:100%;
+    display:flex;
+    color:#787773;
+    background-color: rgb(38, 41, 44);
+    
+}
+.footer-logo i
+{
+    font-size:40px;
+    margin-right:20px;
+}
+.footer-title
+{
+    color:#cfcecc;
+}
+.link1{
+    margin-right:40px;
+}
+.link1 ul
+{
+list-style-type: none;
+}
+.link1 ul li{
+    font-size:13px;
+    padding-top:7px;
+}
+.link ul{
+    list-style-type:none;
+}
+.link2 li
+{
+    display:inline;
+    font-size:13px;
+    padding:5px;
+    color:#787773;
+}
+.footer-description
+{
+    font-size:11px;
+    margin-top:54%;
+    margin-left:35px;
+    color:#787773;
+}
