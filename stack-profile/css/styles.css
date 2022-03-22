@@ -8,7 +8,8 @@ body
     padding:0;
     margin:0;
 }
-header{
+header
+{
     width:100%;
     background-color: #f7f8fa;
     display:flex;
@@ -17,22 +18,29 @@ header{
 }
 .logo
 {
- flex:10%; 
- padding-left:30px;
+    flex:10%; 
+    margin-left:30px;
+   
+}
+.logo:hover
+{
+   background-color:#d9dbda;
 }
 .products
 {
- flex:2%;
- font-size:12px;
- padding-top:15px;
+    flex:2%;
+    font-size:12px;
+    padding-top:15px;
 }
-.products button{
+.products button
+{
     border:none;
     background-color:#f7f8fa ;
     padding:5px 7px;
 
 }
- .products button:hover{
+ .products button:hover
+{
     background-color:#dcdde0 ;
     border-radius:20px;
 }
@@ -44,44 +52,47 @@ header{
 }
 .search-bar input
 {
- width:95%;
- padding:10px;
- margin-top:7px;
- border-radius:2px;
- border:1px solid #b5b4b3;
- margin-left:7px;
- background-image: url('../assets/search.png');
- background-repeat: no-repeat;
- background-position:1% 50%;
+      width:95%;
+      padding:10px;
+      margin-top:7px;
+      border-radius:2px;
+      border:1px solid #b5b4b3;
+      margin-left:7px;
+      background-image: url('../assets/search.png');
+      background-repeat: no-repeat;
+      background-position:1% 50%;
  
 }
 .search-bar input:focus
 {
-   outline:3px solid #a9e6eb;
+     outline:3px solid #a9e6eb;
 }
 .search-bar input::placeholder
 {
-    padding-left: 20px;;
+      padding-left: 20px;;
 }
 .profile-logo
 {
-    flex:1%;
-    padding:15px 15px;
+      flex:1%;
+      padding:15px 15px;
 }
-.profile-logo:hover{
-    background-color: #dcdde0 ;
+.profile-logo:hover
+{
+      background-color: #dcdde0 ;
 }
 .inbox
 {
-    flex:0.5%;
+      flex:0.5%;
 }
-.inbox i{
+.inbox i
+{
     margin-top:55%;
     margin-left:25%;
     font-size:18px;
     color:gray;
 }
-.inbox:hover{
+.inbox:hover
+{
     background-color: #dcdde0 ;
 }
 .achievements
@@ -140,17 +151,28 @@ header{
 }
 .side-nav
 {
-    flex:12%;
+    flex:8%;
     font-size:12px;
     color:#696b6b;
-    border-right: 1px solid #b5b4b3 ;
-
+    padding-top:20px;
+    height:100%;
+    position:sticky;
+    top:5%;
+    left:0;
+    z-index=1;
 }
-.side-nav ul{
+nav
+{
+   width:200px;
+}
+.side-nav ul
+{    
     list-style-type:none;
 }
-.side-nav ul li{
+.side-nav ul li
+{   
     padding:10px;
+    padding-right:0;
 }
 .fa-earth-asia
 {
@@ -172,8 +194,8 @@ header{
 }
 .fa-circle-info
 {
-   float:right;
-   font-size:14px;
+    float:right;
+    font-size:14px;
 }
 .clear
 {
@@ -183,27 +205,25 @@ header{
 }
 .main-body
 {
-    flex:83%;
+    border-left: 1px solid #b5b4b3 ;
+    flex:86%;
     padding:15px;
-    overflow-y: scroll;
-    height:600px;
-    
+    margin-left:2%;   
 }
 .profile-photo
 {
     display:flex;
-   flex-direction: row;
+    flex-direction: row;
 }
 .profile-details
 {
     flex:60%;
     display:flex;
-    flex-direction:row;
-  
+    flex-direction:row;  
 }
 .profile-details img
 {
- border-radius:7px;
+    border-radius:7px;
 }
 .details
 {
@@ -228,14 +248,14 @@ header{
 }
  .location i
 {
- font-size:17px;
- padding-left:6px;
+    font-size:17px;
+    padding-left:6px;
 }
 
 .profile-btn
 {
     flex:5%;
-   text-align: center;
+    text-align: center;
 }
 .profile-btn button
 {
@@ -253,7 +273,7 @@ header{
 }
 .profile-btn button:hover
 {
-  background-color: #f7f8fa;
+    background-color: #f7f8fa;
 }
 .btn-group
 {
@@ -262,12 +282,11 @@ header{
 }
  .profile-btn-group
 {
- padding:7px 10px;
- background-color:#f0912b;
- border:none;
- border-radius:25px;
- color:white;
-
+   padding:7px 10px;
+   background-color:#f0912b;
+   border:none;
+   border-radius:25px;
+   color:white;
 }
 .activity-btn
 {
@@ -289,8 +308,7 @@ header{
 }
 .stats-communities
 {
-    flex:13%;
-    
+    flex:13%;    
 }
  .heading
 {
@@ -307,8 +325,7 @@ header{
 .stats-content 
 {
     display: flex;
-    flex-direction: row;
-    
+    flex-direction: row;   
 }
 .stats-answers
 {
@@ -337,7 +354,7 @@ header{
 }
 .community-section .heading
 {
- float:left;   
+    float:left;   
 }
 .view-all
 {
@@ -360,17 +377,19 @@ header{
     font-size:13px;
     float:left;
 }
-.communities div{
+.communities div
+{
     padding: 15px 0px;
 }
 .communities div i
 {
- font-size:18px;
- padding-right:4px;
+    font-size:18px;
+    padding-right:4px;
 }
-.count{
-  float:right;
- font-size:12px;
+.count
+{
+    float:right;
+    font-size:12px;
 }
 .fa-stack-overflow
 {
@@ -404,13 +423,14 @@ header{
 }
 .twitter-link span
 {
-  font-size:15px;
- 
+    font-size:15px; 
 }
-.about ul{
+.about ul
+{
     list-style-type: disc;    
 }
-.about ul li{
+.about ul li
+{
      padding-top:15px;
      font-size:14px;
      color:#52514f;    
@@ -425,13 +445,14 @@ header{
 }
 .about ul .final-list
 {
-  opacity:0.1;
+    opacity:0.1;
 }
 .read-more-btn
 {
- text-align:center;
+   text-align:center;
 }
-.read-more-btn button{
+.read-more-btn button
+{
     padding:7px;
     background-color: white;
     border:1px solid #6b6a67 ;
@@ -469,8 +490,7 @@ header{
      padding:15px;
      border:1px solid rgb(211, 206, 206);
      margin-right:20px;
-     border-radius:10px;
-    
+     border-radius:10px;    
 }
 .row1
 {
@@ -526,8 +546,7 @@ header{
      padding:5px 5px;
      background-color:#e6ebea;
      border:1px solid #d9dbdb;
-     border-radius:3px;
-     
+     border-radius:3px;     
 }
 .row2 button:hover
 {
@@ -562,8 +581,8 @@ header{
 }
 .layer i
 {
-   font-size:8px;
-   color:#f5d25f;
+    font-size:8px;
+    color:#f5d25f;
 }
 .layer button
 {
@@ -593,7 +612,7 @@ header{
 }
 .top-posts-title
 {
-  flex:60%;
+    flex:60%;
 }
 .sub-heading
 {
@@ -617,12 +636,12 @@ table
 }
 .table2
 {
-   height:20px;
-   width:100px;
+    height:20px;
+    width:100px;
 }
 td
 {
-   padding:6px 8px;
+    padding:6px 8px;
 }
 .active
 {
@@ -630,8 +649,8 @@ td
 }
 table,td
 {
-    border:1px solid gray;
-    border-collapse:collapse;
+     border:1px solid gray;
+     border-collapse:collapse;
 }
 .sub-heading-color
 {
@@ -677,11 +696,11 @@ table,td
 }
 .top-meta-posts
 {
-    margin-top:30px;
+     margin-top:30px;
 }
 .right-side
 {
-   float:right;
+    float:right;
 }
 #meta-post1,#meta-post2
 {
@@ -728,35 +747,41 @@ table,td
 {
     margin-top:30px;
 }   
-footer{
+footer
+{
     padding:15px;
     width:100%;
     display:flex;
     color:#787773;
-    background-color: rgb(38, 41, 44);
-    
+    background-color: rgb(38, 41, 44);    
 }
 .footer-logo i
 {
     font-size:40px;
     margin-right:20px;
+    margin-left:40px;
+    margin-top:4px;
+    color:#c77d2e;
 }
 .footer-title
 {
     color:#cfcecc;
 }
-.link1{
+.link1
+{
     margin-right:40px;
 }
 .link1 ul
 {
-list-style-type: none;
+    list-style-type: none;
 }
-.link1 ul li{
+.link1 ul li
+{
     font-size:13px;
     padding-top:7px;
 }
-.link ul{
+.link ul
+{
     list-style-type:none;
 }
 .link2 li
